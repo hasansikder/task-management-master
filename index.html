@@ -19,19 +19,24 @@
     <title>Task Management Login</title>
 </head>
 
-<body>
+<body class="dark:bg-gray-900 ">
     <main>
-        <h1 class="text-center text-4xl mt-4">Welcome To Task Management System</h1>
+        <h1 class="text-center text-4xl mt-4 font-semibold text-white">Welcome To <span class="text-blue-600">Task
+                Management System</span></h1>
 
-        <section>
-            <div>
-                <h2>Please Login</h2>
+        <section class="w-4/12 mx-auto mt-12 ">
+            <div class="bg-slate-300 p-12 rounded-lg">
+                <h2 class="mb-4 font-semibold text-3xl">Please Login</h2>
+                <input id="email-fild" class="px-3 py-2  rounded-2xl m-2" type="email"> <br>
+                <input id="password-fild" class="px-3 py-2 rounded-2xl m-2" type="password"> <br>
+                <button id="btn-login"
+                    class="bg-blue-600  px-4 py-2 rounded-lg hover:bg-amber-600 text-xl font-semibold m-2">Login</button>
             </div>
         </section>
     </main>
 
 
-
+    <script src="login.js"></script>
 </body>
 
 </html>
